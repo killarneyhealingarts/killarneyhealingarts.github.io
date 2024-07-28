@@ -1,0 +1,178 @@
+/*-- Use For Custom Styling --*/
+
+#copyright {
+
+    letter-spacing: 0.2rem;
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.75;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 320px) {
+    .para_text_custom {
+        font-size: 16px;
+        margin: 0 auto;
+        color: #ffffff;
+        opacity: .7;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        padding: 15px 25px 15px 25px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .para_text_custom {
+
+        padding: 15px 100px 15px 100px;
+
+    }
+}
+
+.no-paddingTWL {
+    padding: 0px !important;
+}
+
+/* @media (max-width: 413px) {
+    #emailaddress_contact {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 413px) {
+    #emailaddress_contact {
+        font-size: 18px;
+    }
+} */
+
+
+.container-test {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.blog-content .container {
+
+    max-width: 90%;
+}
+
+input[type="submit"],
+.ReturnHomBtn,
+.FindOutMoreBtn {
+    display: block;
+    z-index: 11;
+    color: #202020;
+    position: relative;
+    padding: 14px 30px;
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    transition: .5s ease;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 2px;
+
+    border: none;
+    color: #ffffff;
+    background: transparent;
+    border-bottom: solid 1px #e6e6e6;
+}
+
+/* Contact Form SEND Button */
+
+input[type="submit"]:hover,
+.ReturnHomBtn:hover,
+.FindOutMoreBtn:hover {
+    color: #23262d;
+    background-color: #fec107;
+    border: solid 1px #fec107;
+}
+
+/* Landing Page BG Video Custom CSS */
+
+.landingcontainer {
+    padding: 0 !important;
+
+}
+
+.videoBG-Row {
+    width: 100vw !important;
+    height: 100vh !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#videoBG {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+
+    /* position:relative;
+    z-index: -1;
+    width:100%;
+    height: 100%; */
+}
+
+.LandingHeader {
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    /* margin: 15px 0; */
+    line-height: 1.2;
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.LandingHeader_p {
+    position: relative;
+    padding-top: 70px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin: 15px 0;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* @media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url('poster.jpg');
+        background-size: cover;
+    }
+} */
